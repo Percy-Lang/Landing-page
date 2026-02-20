@@ -1,0 +1,66 @@
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: Arial, sans-serif; 
+        }
+
+        #header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+          background: #333;
+          color: white;
+          position: fixed;
+          top: 0;
+          width: 100%; 
+        }
+
+        #header-img {
+          height: 50px;
+        }
+
+        #nav-bar {
+          display: flex;
+        }
+
+        .nav-link {
+          color: white;
+          text-decoration: none;
+          margin: 0 15px;
+        }
+
+        #main { 
+          padding-top: 70px;
+              }
+
+        #form  { 
+          display: flex;
+       flex-direction: column;
+       width: 300px;
+       margin: auto;
+      }
+
+        #email { 
+          padding: 10px; margin: 10px 0;
+               }
+
+        #submit {
+          padding: 10px;
+                 background: blue;
+                 color: white;
+                 border: none;
+                 cursor: pointer; 
+                }
+        @media (max-width: 600px) {
+          
+            #header {
+              flex-direction: column;
+                    }
+        }
+   
